@@ -6,12 +6,12 @@
   <xacro:include filename="$(find wamv_gazebo)/urdf/dynamics/wamv_gazebo_dynamics_plugin.xacro" />
 
   <!-- Include sensor macros -->
-  <xacro:include filename="$(find wamv_gazebo)/urdf/components/wamv_camera.xacro" />
+  <!--<xacro:include filename="$(find wamv_gazebo)/urdf/components/wamv_camera.xacro" />-->
   <xacro:include filename="$(find wamv_gazebo)/urdf/components/wamv_gps.xacro" />
   <xacro:include filename="$(find wamv_gazebo)/urdf/components/wamv_imu.xacro" />
-  <xacro:include filename="$(find wamv_gazebo)/urdf/components/wamv_planar_lidar.xacro" />
+  <!--  <xacro:include filename="$(find wamv_gazebo)/urdf/components/wamv_planar_lidar.xacro" />
   <xacro:include filename="$(find wamv_gazebo)/urdf/components/wamv_3d_lidar.xacro" />
-  <xacro:include filename="$(find wamv_gazebo)/urdf/components/lidar.xacro" />
+  <xacro:include filename="$(find wamv_gazebo)/urdf/components/lidar.xacro" /> -->
   <xacro:include filename="$(find wamv_gazebo)/urdf/components/wamv_p3d.xacro" />
   <xacro:include filename="$(find wamv_gazebo)/urdf/components/wamv_pinger.xacro" />
 
