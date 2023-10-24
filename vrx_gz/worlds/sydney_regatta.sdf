@@ -22,7 +22,7 @@
         <scene>scene</scene>
         <ambient_light>0.4 0.4 0.4</ambient_light>
         <background_color>0.8 0.8 0.8</background_color>
-        <camera_pose>-478.1 148.2 13.2 0 0.25 2.94</camera_pose>
+        <camera_pose>-525 200 80 0 1.54 1.4</camera_pose>
         <camera_clip>
           <near>0.25</near>
           <far>10000</far>
@@ -241,18 +241,18 @@
       </plugin>
 
       <!-- Inspector -->
-      <plugin filename="ComponentInspector" name="Component inspector">
+      <!-- <plugin filename="ComponentInspector" name="Component inspector">
         <gz-gui>
           <property type="string" key="state">docked_collapsed</property>
         </gz-gui>
-      </plugin>
+      </plugin> -->
 
       <!-- Entity tree -->
-      <plugin filename="EntityTree" name="Entity tree">
+      <!-- <plugin filename="EntityTree" name="Entity tree">
         <gz-gui>
           <property type="string" key="state">docked_collapsed</property>
         </gz-gui>
-      </plugin>
+      </plugin> -->
 
       <!-- View angle -->
       <plugin filename="ViewAngle" name="View angle">
@@ -340,11 +340,11 @@
       </attenuation>
       <direction>-0.5 0.1 -0.9</direction>
     </light>
-
+<!-- 
     <include>
       <pose> 0 0 0.2 0 0 0 </pose>
       <uri>https://fuel.gazebosim.org/1.0/openrobotics/models/sydney_regatta</uri>
-    </include>
+    </include> -->
 
     <include>
       <name>Coast Waves</name>
@@ -354,7 +354,7 @@
 
     <include>
       <name>mb_marker_buoy_red</name>
-      <pose>-528 191 0 0 0 0</pose>
+      <pose>-561.716129867825 275.02238660673686 0 0 0 0</pose>
       <uri>https://fuel.gazebosim.org/1.0/openrobotics/models/mb_marker_buoy_red</uri>
 
       <plugin name="vrx::PolyhedraBuoyancyDrag"
@@ -368,8 +368,8 @@
           <pose>0 0 -0.3 0 0 0</pose>
           <geometry>
             <cylinder>
-              <radius>0.325</radius>
-              <length>0.1</length>
+              <radius>0.5</radius>
+              <length>0.3</length>
             </cylinder>
           </geometry>
         </buoyancy>
@@ -462,7 +462,7 @@
 
     <include>
       <name>mb_round_buoy_orange</name>
-      <pose>-528 187 0 0 0 0</pose>
+      <pose>-489.46571171424984 264.90504677042537 0 0 0 0</pose>
       <uri>https://fuel.gazebosim.org/1.0/openrobotics/models/mb_round_buoy_orange</uri>
 
       <plugin name="vrx::PolyhedraBuoyancyDrag"
@@ -476,7 +476,7 @@
           <pose>0 0 0 0 0 0</pose>
           <geometry>
             <sphere>
-              <radius>0.21</radius>
+              <radius>0.35</radius>
           </sphere>
           </geometry>
         </buoyancy>
